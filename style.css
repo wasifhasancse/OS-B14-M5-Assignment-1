@@ -15,18 +15,46 @@
   --card: #f9f9fc;
 }
 
-body{
+/* common style start  */
+body {
   background: var(--bg);
   color: var(--text-dark);
 }
 
-a{
+a {
   text-decoration: none;
   color: inherit;
 }
 
+.primary-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-light);
+  background: var(--primary);
+}
+
+.secondary-btn{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-dark);
+}
+
+.secondary-btn .play {
+  width: 46px;
+  height: 46px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* common style end */
+
 /* header section style start  */
-header{
+header {
   padding: 24px 8%;
   display: flex;
   font-size: 18px;
@@ -34,38 +62,65 @@ header{
   align-items: center;
 }
 
-header .logo{
+header .logo {
   display: flex;
   align-items: center;
 }
 
-header .logo img{
+header .logo img {
   height: 30px;
   width: auto;
   display: block;
 }
 
-header ul{
+header ul {
   list-style: none;
   display: flex;
 }
 
-header ul a{
+header ul a {
   margin: 0 30px;
-  font-weight: 600;
+  font-weight: 500;
 }
-header .auth a{
+header .auth a {
   margin: 0 16px;
   font-size: 18px;
-  font-weight: 600;
-}
-
-header .auth .btn{
-  padding: 10px 20px;
-  border-radius: 8px;
-  font-size: 18px;
-  font-weight: 600;
-  color: var(--text-light);
-  background: var(--primary);
+  font-weight: 500;
 }
 /* header section style end */
+
+/* hero section style start */
+.hero {
+  padding: 80px 8%;
+  height: 800px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: url("./assets/Hero-image.png") no-repeat right center;
+}
+
+.hero .hero-content {
+  max-width: 590px;
+}
+
+.hero .hero-content h1 {
+  font-size: 70px;
+  font-weight: 900;
+  line-height: 80px;
+  color: var(--text-dark);
+}
+
+.hero .hero-content p {
+  margin: 22px 0 32px;
+  padding-right: 20px;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 28px;
+}
+
+.hero .hero-actions {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+/* hero section style end */
