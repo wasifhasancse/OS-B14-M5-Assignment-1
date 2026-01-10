@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+:root {
+  --primary: #ff7a00;
+  --dark: #0b1b3b;
+  --text-dark: #0b1b3b;
+  --text: #5f6c7b;
+  --text-light: #ffffff;
+  --bg: #ffffff;
+  --card: #f9f9fc;
+}
+
+body{
+  background: var(--bg);
+  color: var(--text-dark);
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/* header section style start  */
+header{
+  padding: 24px 8%;
+  display: flex;
+  font-size: 18px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo{
+  display: flex;
+  align-items: center;
+}
+
+header .logo img{
+  height: 30px;
+  width: auto;
+  display: block;
+}
+
+header ul{
+  list-style: none;
+  display: flex;
+}
+
+header ul a{
+  margin: 0 30px;
+  font-weight: 600;
+}
+header .auth a{
+  margin: 0 16px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+header .auth .btn{
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-light);
+  background: var(--primary);
+}
+/* header section style end */
