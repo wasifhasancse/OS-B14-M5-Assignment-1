@@ -225,3 +225,48 @@ header .auth a {
   display: block;
 }
 /* components section style end */
+
+/* testimonial section style start  */
+.testimonial-section{
+  text-align: center;
+}
+
+.testimonials-container{
+  padding: 100px 8%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 60px 80px;
+  min-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.testimonial-item{
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.testimonial-item img{
+  width: 48px;
+  height: 48px;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.testimonial-item p{
+  font-size: 16px;
+  line-height: 1.6;
+  color: var(--text-dark);
+  margin-bottom: 12px;
+  min-width: 320px;
+}
+
+.testimonial-item h4{
+  font-size: 14px;
+  letter-spacing: 2px;
+color: var(--text);
+font-weight: 500;
+text-transform: uppercase;
+}
+/* testimonial section style end */
