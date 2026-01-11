@@ -26,6 +26,12 @@ a {
   color: inherit;
 }
 
+.center{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .primary-btn {
   padding: 10px 20px;
   border-radius: 8px;
@@ -145,10 +151,6 @@ header .auth a {
 /* hero section style end */
 
 /* service section style start  */
-.service {
-  padding: 90px 8%;
-  text-align: center;
-}
 
 .service-card-container {
   display: grid;
@@ -322,15 +324,15 @@ header .auth a {
   /* border: 1px solid var(--text); */
 }
 
-.our-team-card .our-team-card-footer span {
-  text-align: center;
-  color: var(--text);
+.our-team-card .our-team-card-footer a {
+  font-size: 18px;
+  color: var(--text-dark);
   height: 50px;
   border: 1px solid var(--text);
   border-bottom: none;
 }
 
-.our-team-card .our-team-card-footer span:nth-child(2n-1) {
+.our-team-card .our-team-card-footer a:nth-child(2n-1) {
   border-right: none;
   border-left: none;
 }
@@ -372,6 +374,7 @@ header .auth a {
 
 /* footer section style start  */
 .footer {
+  padding: 100px 8% 0;
   margin-top: 120px;
 }
 
@@ -413,5 +416,6 @@ header .auth a {
   font-size: 18px;
   color: var(--text);
   line-height: 1.8;
+  margin-bottom: 45px;
 }
 /* footer section style end */
