@@ -26,7 +26,6 @@ a {
   color: inherit;
 }
 
-
 .primary-btn {
   padding: 10px 20px;
   border-radius: 8px;
@@ -36,7 +35,7 @@ a {
   background: var(--primary);
 }
 
-.secondary-btn{
+.secondary-btn {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -53,19 +52,19 @@ a {
   justify-content: center;
 }
 
-.section{
+.section {
   padding: 100px 8%;
   text-align: center;
 }
 
-.section-subtitle{
+.section-subtitle {
   text-transform: uppercase;
   letter-spacing: 3px;
   color: var(--text);
   font-size: 14px;
 }
 
-.section-title{
+.section-title {
   font-size: 52px;
   color: var(--text-dark);
   margin: 12px 0 70px;
@@ -146,18 +145,18 @@ header .auth a {
 /* hero section style end */
 
 /* service section style start  */
-.service{
+.service {
   padding: 90px 8%;
   text-align: center;
 }
 
-.service-card-container{
+.service-card-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
 }
 
-.service-card{
+.service-card {
   background: var(--card);
   display: flex;
   flex-direction: column;
@@ -166,25 +165,25 @@ header .auth a {
   border-radius: 20px;
   padding: 50px 35px 40px;
   box-shadow: 0 25px 50px rgba(0, 0, 0, 0.2);
-  transition: transform .3s;
+  transition: transform 0.3s;
 }
 
-.service-card:hover{
+.service-card:hover {
   transform: translateY(-10px);
 }
 
-.service-image{
+.service-image {
   margin-bottom: 40px;
 }
 
-.service-card h3{
+.service-card h3 {
   font-size: 36px;
   font-weight: 500;
   color: var(--text-dark);
   margin-bottom: 32px;
 }
 
-.service-card p{
+.service-card p {
   font-size: 18px;
   line-height: 1.7;
   margin-bottom: 32px;
@@ -192,31 +191,31 @@ header .auth a {
 /* service section style end  */
 
 /* components section style start  */
-.components{
+.components {
   padding: 100px 8%;
 }
 
-.components .components-container{
+.components .components-container {
   display: grid;
   grid-template-columns: 1fr 1.3fr;
   align-items: center;
   gap: 80px;
 }
 
-.components .component-info h3{
+.components .component-info h3 {
   font-size: 22px;
   color: var(--text-dark);
   margin-bottom: 18px;
 }
 
-.components .component-info p{
+.components .component-info p {
   line-height: 1.7;
   max-width: 420px;
   color: var(--text);
   margin-bottom: 30px;
 }
 
-.component-info .outline-btn{
+.component-info .outline-btn {
   display: inline-block;
   padding: 10px 28px;
   border-radius: 30px;
@@ -225,7 +224,7 @@ header .auth a {
   color: var(--text-dark);
 }
 
-.components .components-image img{
+.components .components-image img {
   width: 100%;
   border-radius: 16px;
   display: block;
@@ -233,11 +232,11 @@ header .auth a {
 /* components section style end */
 
 /* testimonial section style start  */
-.testimonial-section{
+.testimonial-section {
   text-align: center;
 }
 
-.testimonials-container{
+.testimonials-container {
   padding: 100px 8%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -247,20 +246,20 @@ header .auth a {
   text-align: left;
 }
 
-.testimonial-item{
+.testimonial-item {
   display: flex;
   gap: 20px;
   align-items: flex-start;
 }
 
-.testimonial-item img{
+.testimonial-item img {
   width: 48px;
   height: 48px;
   border-radius: 8px;
   object-fit: cover;
 }
 
-.testimonial-item p{
+.testimonial-item p {
   font-size: 16px;
   line-height: 1.6;
   color: var(--text-dark);
@@ -268,23 +267,23 @@ header .auth a {
   min-width: 320px;
 }
 
-.testimonial-item h4{
+.testimonial-item h4 {
   font-size: 14px;
   letter-spacing: 2px;
-color: var(--text);
-font-weight: 500;
-text-transform: uppercase;
+  color: var(--text);
+  font-weight: 500;
+  text-transform: uppercase;
 }
 /* testimonial section style end */
 
 /* our team section style start  */
-.our-team-container{
+.our-team-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
 }
 
-.our-team-card{
+.our-team-card {
   background: var(--card);
   border: 1px solid var(--text);
   border-radius: 16px;
@@ -294,7 +293,7 @@ text-transform: uppercase;
   align-items: center;
 }
 
-.our-team-card img{
+.our-team-card img {
   width: 90px;
   height: 90px;
   border-radius: 50%;
@@ -302,13 +301,13 @@ text-transform: uppercase;
   margin-bottom: 20px;
 }
 
-.our-team-card h4{
+.our-team-card h4 {
   color: var(--text-dark);
   font-weight: 600;
   margin-bottom: 6px;
 }
 
-.our-team-card p{
+.our-team-card p {
   font-size: 12px;
   letter-spacing: 2px;
   color: var(--text);
@@ -316,14 +315,14 @@ text-transform: uppercase;
   margin-bottom: 40px;
 }
 
-.our-team-card .our-team-card-footer{
+.our-team-card .our-team-card-footer {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   /* border: 1px solid var(--text); */
 }
 
-.our-team-card .our-team-card-footer span{
+.our-team-card .our-team-card-footer span {
   text-align: center;
   color: var(--text);
   height: 50px;
@@ -331,24 +330,24 @@ text-transform: uppercase;
   border-bottom: none;
 }
 
-.our-team-card .our-team-card-footer span:nth-child(2n-1){
+.our-team-card .our-team-card-footer span:nth-child(2n-1) {
   border-right: none;
   border-left: none;
 }
 /* our team section style end */
 
 /* newsletter section style start */
-.newsletter-container{
+.newsletter-container {
   display: flex;
   align-items: center;
   gap: 80px;
 }
 
-.newsletter-container .newsletter-image img{
+.newsletter-container .newsletter-image img {
   width: 420px;
 }
 
-.newsletter-content{
+.newsletter-content {
   display: flex;
   flex-direction: column;
   flex: 1;
@@ -356,17 +355,63 @@ text-transform: uppercase;
   text-align: left;
 }
 
-.newsletter-content p{
+.newsletter-content p {
   font-size: 18px;
   line-height: 1.8;
   color: var(--text-dark);
 }
 
-.newsletter-content .newsletter-input{
+.newsletter-content .newsletter-input {
   padding: 18px 24px;
   border-radius: 40px;
   border: 1px solid var(--text);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
-font-size: 18px;
+  font-size: 18px;
 }
 /* newsletter section style end */
+
+/* footer section style start  */
+.footer {
+  margin-top: 120px;
+}
+
+.footer-top {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+}
+
+.footer-top .footer-logo {
+  display: flex;
+  align-items: center;
+}
+
+.footer-top p {
+  text-align: center;
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.footer-top .footer-links {
+  display: flex;
+  gap: 24px;
+}
+
+.footer-top .footer-links a {
+  font-size: 18px;
+  color: var(--text-dark);
+}
+
+.footer hr {
+  height: 1px;
+  background: var(--text);
+  margin: 28px 0;
+}
+
+.footer-bottom {
+  text-align: left;
+  font-size: 18px;
+  color: var(--text);
+  line-height: 1.8;
+}
+/* footer section style end */
