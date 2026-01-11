@@ -26,6 +26,7 @@ a {
   color: inherit;
 }
 
+
 .primary-btn {
   padding: 10px 20px;
   border-radius: 8px;
@@ -50,6 +51,11 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.section{
+  padding: 100px 8%;
+  text-align: center;
 }
 
 .section-subtitle{
@@ -270,3 +276,64 @@ font-weight: 500;
 text-transform: uppercase;
 }
 /* testimonial section style end */
+
+/* our team section style start  */
+.our-team-container{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.our-team-card{
+  background: var(--card);
+  border: 1px solid var(--text);
+  border-radius: 16px;
+  padding: 40px 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-team-card img{
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.our-team-card h4{
+  color: var(--text-dark);
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.our-team-card p{
+  font-size: 12px;
+  letter-spacing: 2px;
+  color: var(--text);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.our-team-card .our-team-card-footer{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* border: 1px solid var(--text); */
+}
+
+.our-team-card .our-team-card-footer span{
+  text-align: center;
+  color: var(--text);
+  height: 50px;
+  border: 1px solid var(--text);
+  border-bottom: none;
+}
+
+.our-team-card .our-team-card-footer span:nth-child(2n-1){
+  border-right: none;
+  border-left: none;
+}
+
+/* our team section style end */
