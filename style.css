@@ -51,6 +51,20 @@ a {
   align-items: center;
   justify-content: center;
 }
+
+.section-subtitle{
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: var(--text);
+  font-size: 14px;
+}
+
+.section-title{
+  font-size: 52px;
+  color: var(--text-dark);
+  margin: 12px 0 70px;
+}
+
 /* common style end */
 
 /* header section style start  */
@@ -129,19 +143,6 @@ header .auth a {
 .service{
   padding: 90px 8%;
   text-align: center;
-}
-
-.service small{
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  color: var(--text);
-  font-size: 14px;
-}
-
-.service h2{
-  font-size: 52px;
-  color: var(--text-dark);
-  margin: 12px 0 70px;
 }
 
 .service-card-container{
