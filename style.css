@@ -681,6 +681,15 @@ header nav a:hover::after {
     font-size: 16px;
   }
 
+  .newsletter-container {
+        gap: 30px;
+    }
+
+  .newsletter-container .newsletter-image img {
+    width: 100%;
+    max-width: 200px;
+  }
+
   .newsletter-content .newsletter-input {
     width: 100%;
     font-size: 16px;
